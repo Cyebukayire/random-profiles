@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Random Profiles</title>
 </head>
@@ -14,6 +16,20 @@
         <h3>email: {{email}}</h3>
         <button v-on:click="getUser()" :class="gender">Get Random Profile</button>
     </div>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://github.com/Cyebukayire"><i class="icon ion-social-github"></i></a>
+                <a href="https://www.linkedin.com/in/peace-cyebukayire-b4a810187/"><i class="icon ion-social-linkedin"></i></a>
+                <a href="https://twitter.com/Peace18771213"><i class="icon ion-social-twitter"></i></a>
+                <!-- <a href="https://stackoverflow.com/users/14957517/peace/"><i class="icon fa-stack-overflow"></i></a> -->
+            </div>
+            <p class="copyright">Cyebkayire © <a class="text-light" href="https://github.com/Cyebukayire/random-profiles">GitHub</a></p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://unpkg.com/vue@3.0.5"></script>
       <script src="script.js"></script>
