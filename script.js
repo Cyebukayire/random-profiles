@@ -14,8 +14,7 @@ const app = Vue.createApp({
         async getUser() {
             const res = await fetch('https://randomuser.me/api')
             const { results } = await res.json()   
-            console.log(results)   
-            
+            // console.log(results)   
             this.firstName = results[0].name.first
             this.lastName = results[0].name.last
             this.country = results[0].location.country
