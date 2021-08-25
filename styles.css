@@ -60,18 +60,18 @@
   button:hover {
     transform: scale(0.98);
   }
-  nav {
-    background-color:steelblue;
+  span {
+    /* background-color:steelblue; */
     color: pink;
-    font-size: 20px;
+    /* font-size: 20px; */
   }
   
 
 
 .footer-basic {
   padding:40px 0;
-  background-color:steelblue;
-  color:white;
+  /* background-color:steelblue; */
+  color:steelblue;
 }
 
 .footer-basic ul {
@@ -110,7 +110,7 @@
   display:inline-block;
   text-align:center;
   border-radius:50%;
-  border:1px solid #ccc;
+  border:1px solid steelblue;
   margin:0 8px;
   color:inherit;
   opacity:0.75;
@@ -123,7 +123,7 @@
 .footer-basic .copyright {
   margin-top:15px;
   text-align:center;
-  font-size:13px;
+  font-size:18px;
   color:#aaa;
   margin-bottom:0;
 }
